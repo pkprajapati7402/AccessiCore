@@ -1,0 +1,38 @@
+### 🎯 Type of Contribution
+<!-- Check the type that applies -->
+- [ ] 💻 Code contribution
+- [ ] 📝 Documentation
+- [ ] 🐛 Bug report
+- [ ] 💡 Feature request
+- [ ] ♿ Accessibility testing/feedback
+- [ ] 🌍 Translation
+- [ ] 🎨 Design
+- [ ] 🧪 Testing
+- [ ] 💬 Community support
+
+### 📋 Contribution Checklist
+Before making your first contribution, please ensure:
+- [ ] I have read the [Code of Conduct](CODE_OF_CONDUCT.md)
+- [ ] I have read the [Contributing Guidelines](CONTRIBUTING.md)
+- [ ] I have searched for existing issues/PRs related to my contribution
+- [ ] I understand this is a FOSS project built by volunteers
+
+### 🚀 Getting Started
+1. Fork the repository
+2. Clone your fork: `git clone https://github.com/YOUR_USERNAME/AccessiCore.git`
+3. Create a branch: `git checkout -b feature/my-contribution`
+4. Make your changes and commit: `git commit -m 'feat: add amazing feature'`
+5. Push to your fork: `git push origin feature/my-contribution`
+6. Open a Pull Request
+
+### 💬 Need Help?
+- Check our [GitHub Discussions](../../discussions) for Q&A
+- Look for issues labeled `good first issue` or `help wanted`
+- Don't hesitate to ask questions!
+
+### 🌟 Thank You!
+Your contribution makes the web more accessible for everyone. We appreciate you!
+
+---
+
+*This project is part of FOSS Hackathon 2026 and welcomes contributors of all skill levels.*

@@ -1,0 +1,66 @@
+{
+  "manifest_version": 3,
+  "name": "AccessiCore",
+  "version": "0.1.0",
+  "description": "Free and Open Source AI-Powered Semantic Web Accessibility Repair Tool",
+  "author": "AccessiCore Contributors",
+  "homepage_url": "https://github.com/yourusername/AccessiCore",
+  
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "48": "icons/icon-48.png"
+    },
+    "default_title": "AccessiCore"
+  },
+  
+  "background": {
+    "service_worker": "background/background.js"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content/content.js"],
+      "css": ["content/overlay.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  
+  "host_permissions": [],
+  
+  "web_accessible_resources": [
+    {
+      "resources": ["models/*", "assets/*"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  },
+  
+  "options_page": "options/options.html",
+  
+  "commands": {
+    "activate-conversation": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+A",
+        "mac": "Command+Shift+A"
+      },
+      "description": "Activate conversational interface"
+    }
+  }
+}

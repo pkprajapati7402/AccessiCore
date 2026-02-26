@@ -1,0 +1,69 @@
+{
+  "name": "accessicore",
+  "version": "0.1.0",
+  "description": "Free and Open Source AI-Powered Semantic Web Accessibility Repair Tool",
+  "main": "src/background/index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "build:prod": "NODE_ENV=production webpack --mode production",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix",
+    "format": "prettier --write \"src/**/*.{js,json,css,html}\"",
+    "format:check": "prettier --check \"src/**/*.{js,json,css,html}\""
+  },
+  "keywords": [
+    "accessibility",
+    "a11y",
+    "aria",
+    "wcag",
+    "browser-extension",
+    "semantic-web",
+    "ai",
+    "machine-learning",
+    "nlp",
+    "assistive-technology",
+    "screen-reader",
+    "foss",
+    "open-source"
+  ],
+  "author": "AccessiCore Contributors",
+  "license": "MIT",
+  "homepage": "https://github.com/yourusername/AccessiCore#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/AccessiCore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/AccessiCore/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.23.0",
+    "babel-loader": "^9.1.0",
+    "css-loader": "^6.8.0",
+    "eslint": "^8.50.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.0",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.0"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.11.0",
+    "onnxruntime-web": "^1.16.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Edge versions"
+  ]
+}

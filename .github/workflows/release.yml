@@ -1,0 +1,71 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build and Release
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Run tests
+      run: npm test
+      
+    - name: Build extension
+      run: npm run build:prod
+      
+    - name: Create Chrome package
+      run: |
+        cd dist
+        zip -r ../accessicore-chrome-${{ github.ref_name }}.zip .
+        
+    - name: Create Firefox package
+      run: |
+        cd dist
+        zip -r ../accessicore-firefox-${{ github.ref_name }}.xpi .
+        
+    - name: Generate checksums
+      run: |
+        sha256sum accessicore-chrome-${{ github.ref_name }}.zip > checksums.txt
+        sha256sum accessicore-firefox-${{ github.ref_name }}.xpi >> checksums.txt
+        
+    - name: Extract release notes
+      id: extract-release-notes
+      run: |
+        sed -n '/## \[${{ github.ref_name }}\]/,/## \[/p' CHANGELOG.md | sed '$d' > release_notes.md
+        
+    - name: Create GitHub Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: |
+          accessicore-chrome-${{ github.ref_name }}.zip
+          accessicore-firefox-${{ github.ref_name }}.xpi
+          checksums.txt
+        body_path: release_notes.md
+        draft: false
+        prerelease: ${{ contains(github.ref_name, 'beta') || contains(github.ref_name, 'alpha') }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Notify community
+      run: |
+        echo "Release ${{ github.ref_name }} created successfully!"
+        echo "Download: https://github.com/${{ github.repository }}/releases/tag/${{ github.ref_name }}"
