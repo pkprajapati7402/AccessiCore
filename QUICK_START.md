@@ -20,7 +20,7 @@ Get AccessiCore up and running in minutes!
 #### Manual Installation (Current Development)
 
 **Chrome/Edge:**
-1. Download the latest release from [GitHub Releases](https://github.com/yourusername/AccessiCore/releases)
+1. Download the latest release from [GitHub Releases](https://github.com/pkprajapati7402/AccessiCore/releases)
 2. Unzip the downloaded file
 3. Open `chrome://extensions/` (or `edge://extensions/`)
 4. Enable "Developer mode" (top right)
@@ -28,7 +28,7 @@ Get AccessiCore up and running in minutes!
 6. Select the unzipped folder
 
 **Firefox:**
-1. Download the `.xpi` file from [GitHub Releases](https://github.com/yourusername/AccessiCore/releases)
+1. Download the `.xpi` file from [GitHub Releases](https://github.com/pkprajapati7402/AccessiCore/releases)
 2. Open `about:addons`
 3. Click the gear icon → "Install Add-on From File"
 4. Select the downloaded `.xpi` file
@@ -77,7 +77,7 @@ Click the AccessiCore icon → Settings to:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/AccessiCore.git
+git clone https://github.com/pkprajapati7402/AccessiCore.git
 cd AccessiCore
 
 # 2. Install dependencies
@@ -203,7 +203,7 @@ npm run build:prod
 1. Read [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines
 2. Check [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for system design
 3. Look for `good first issue` labels on GitHub
-4. Join [GitHub Discussions](https://github.com/yourusername/AccessiCore/discussions)
+4. Join [GitHub Discussions](https://github.com/pkprajapati7402/AccessiCore/discussions)
 
 ---
 
@@ -249,7 +249,7 @@ npm test
 ### Getting Help
 
 - 📖 Read the docs in `docs/`
-- 💬 Ask in [GitHub Discussions](https://github.com/yourusername/AccessiCore/discussions)
+- 💬 Ask in [GitHub Discussions](https://github.com/pkprajapati7402/AccessiCore/discussions)
 - 🐛 Check existing issues on GitHub
 - 📧 Email: help@accessicore.example.com
 
@@ -270,11 +270,11 @@ npm test
 
 ### Accessibility Issues
 - Report them! This is an accessibility tool, irony is not lost on us
-- Use [Accessibility Issue template](https://github.com/yourusername/AccessiCore/issues/new?template=accessibility_issue.md)
+- Use [Accessibility Issue template](https://github.com/pkprajapati7402/AccessiCore/issues/new?template=accessibility_issue.md)
 
 ### Getting Support
 
-- **Users**: [GitHub Discussions](https://github.com/yourusername/AccessiCore/discussions)
+- **Users**: [GitHub Discussions](https://github.com/pkprajapati7402/AccessiCore/discussions)
 - **Developers**: [Contributing Guide](CONTRIBUTING.md)
 - **Security**: [Security Policy](SECURITY.md)
 

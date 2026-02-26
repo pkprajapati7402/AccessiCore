@@ -69,9 +69,9 @@ After you submit a vulnerability report, here's what will happen:
 ### Reporting Other Issues
 
 For non-security issues:
-- **Bug reports**: [GitHub Issues](https://github.com/yourusername/AccessiCore/issues)
-- **Feature requests**: [GitHub Discussions](https://github.com/yourusername/AccessiCore/discussions)
-- **Questions**: [GitHub Discussions](https://github.com/yourusername/AccessiCore/discussions)
+- **Bug reports**: [GitHub Issues](https://github.com/pkprajapati7402/AccessiCore/issues)
+- **Feature requests**: [GitHub Discussions](https://github.com/pkprajapati7402/AccessiCore/discussions)
+- **Questions**: [GitHub Discussions](https://github.com/pkprajapati7402/AccessiCore/discussions)
 
 ## Security Update Process
 
@@ -124,7 +124,7 @@ You can verify the integrity of releases:
 
 ```bash
 # Build from source
-git clone https://github.com/yourusername/AccessiCore.git
+git clone https://github.com/pkprajapati7402/AccessiCore.git
 cd AccessiCore
 git checkout v0.1.0  # or latest version tag
 npm install

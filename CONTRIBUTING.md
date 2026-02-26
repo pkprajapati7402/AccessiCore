@@ -23,8 +23,8 @@ This project and everyone participating in it is governed by our [Code of Conduc
 ### Reporting Bugs 🐛
 
 Before submitting a bug report:
-- Check the [issue tracker](https://github.com/yourusername/AccessiCore/issues) to see if the issue has already been reported
-- Check the [discussions](https://github.com/yourusername/AccessiCore/discussions) for known issues
+- Check the [issue tracker](https://github.com/pkprajapati7402/AccessiCore/issues) to see if the issue has already been reported
+- Check the [discussions](https://github.com/pkprajapati7402/AccessiCore/discussions) for known issues
 - Collect information about the bug (browser version, OS, steps to reproduce)
 
 When submitting a bug report, include:
@@ -87,7 +87,7 @@ Look for issues labeled:
 
 3. **Add upstream remote**
    ```bash
-   git remote add upstream https://github.com/originalowner/AccessiCore.git
+   git remote add upstream https://github.com/pkprajapati7402/AccessiCore.git
    ```
 
 4. **Install dependencies**

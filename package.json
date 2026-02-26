@@ -32,13 +32,13 @@
   ],
   "author": "AccessiCore Contributors",
   "license": "MIT",
-  "homepage": "https://github.com/yourusername/AccessiCore#readme",
+  "homepage": "https://github.com/pkprajapati7402/AccessiCore#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/AccessiCore.git"
+    "url": "git+https://github.com/pkprajapati7402/AccessiCore.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/AccessiCore/issues"
+    "url": "https://github.com/pkprajapati7402/AccessiCore/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.23.0",

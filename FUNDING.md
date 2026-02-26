@@ -15,7 +15,7 @@ While AccessiCore will always be free, maintaining and improving it requires tim
 
 ### Support the Project
 
-- **GitHub Sponsors**: [Sponsor AccessiCore](https://github.com/sponsors/yourusername) (coming soon)
+- **GitHub Sponsors**: [Sponsor AccessiCore](https://github.com/sponsors/pkprajapati7402) (coming soon)
 - **Open Collective**: [Support via Open Collective](https://opencollective.com/accessicore) (coming soon)
 - **Ko-fi**: [Buy us a coffee](https://ko-fi.com/accessicore) (coming soon)
 

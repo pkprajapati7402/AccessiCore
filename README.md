@@ -223,7 +223,7 @@ Extensive testing includes:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/AccessiCore.git
+git clone https://github.com/pkprajapati7402/AccessiCore.git
 cd AccessiCore
 
 # Install dependencies
@@ -372,8 +372,8 @@ All contributors will be:
 
 ### Communication Channels
 
-* **Discussions**: [GitHub Discussions](https://github.com/yourusername/AccessiCore/discussions)
-* **Issues**: [GitHub Issues](https://github.com/yourusername/AccessiCore/issues)
+* **Discussions**: [GitHub Discussions](https://github.com/pkprajapati7402/AccessiCore/discussions)
+* **Issues**: [GitHub Issues](https://github.com/pkprajapati7402/AccessiCore/issues)
 * **Email**: accessicore@example.com (for sensitive matters)
 
 ### Reporting Security Vulnerabilities
